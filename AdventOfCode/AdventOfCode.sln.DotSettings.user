@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=62abe348_002De10d_002D47d2_002Dae16_002Dd1859f94eb29/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="SolvePartOneTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::864326CD-7F6C-406D-9E13-90D2F39FF43C::net7.0::AdventOfCode.Puzzles.UnitTests.Days._03.SolvePartOneTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::864326CD-7F6C-406D-9E13-90D2F39FF43C::net7.0::AdventOfCode.Puzzles.UnitTests.Days._03.SolvePartTwoTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::864326CD-7F6C-406D-9E13-90D2F39FF43C::net7.0::AdventOfCode.Puzzles.UnitTests.Days._04.SolvePartOneTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
