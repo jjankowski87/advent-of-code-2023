@@ -13,6 +13,6 @@ public class SolvePartTwoTests : TestBase<Day04PuzzleSolver>
         var result = SolvePartTwo("04.txt");
         
         // then
-        result.Should().Be("TODO");
+        result.Should().Be("30");
     }
 }

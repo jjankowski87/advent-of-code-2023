@@ -34,9 +34,35 @@ public class Day04PuzzleSolver : IPuzzleSolver
 
     public string SolvePartTwo(FileData fileData)
     {
-        throw new NotImplementedException();
+        var allScratchCards = fileData.Lines.Select(ParseScratchcard).ToList();
+        var resultScratchCards = allScratchCards.ToList();
+        var toProcess = new Queue<Scratchcard>(allScratchCards.Where(x => x.IsWinning));
+
+        while (toProcess.TryDequeue(out var winning))
+        {
+            var copies = allScratchCards.Where(x => x.CardNumber > winning.CardNumber
+                                                    && x.CardNumber <= winning.CardNumber + winning.Matches).ToList();
+            
+            resultScratchCards.AddRange(copies);
+            foreach (var copy in copies)
+            {
+                toProcess.Enqueue(copy);
+            }
+        }
+
+        return resultScratchCards.Count.ToString();
     }
 
+    private static Scratchcard ParseScratchcard(string line)
+    {
+        var cardNumber = int.Parse(line.Split(":").First().Replace("Card ", string.Empty));
+        var winingNumbers = ParseWiningNumbers(line);
+        var myNumbers = ParseMyNumbers(line);
+        var matches = winingNumbers.Count(x => myNumbers.Contains(x));
+
+        return new Scratchcard(cardNumber, matches);
+    }
+    
     private static IList<int> ParseMyNumbers(string line)
     {
         var numbers = line.Split(":").Last().Split("|").Last().Split(" ", StringSplitOptions.RemoveEmptyEntries);
