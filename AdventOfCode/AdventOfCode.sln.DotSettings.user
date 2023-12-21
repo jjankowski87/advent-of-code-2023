@@ -15,5 +15,7 @@
     &lt;TestId&gt;xUnit::864326CD-7F6C-406D-9E13-90D2F39FF43C::net7.0::AdventOfCode.Puzzles.UnitTests.Days._07.SolvePartTwoTests.ShouldSolveTestPuzzle&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::864326CD-7F6C-406D-9E13-90D2F39FF43C::net7.0::AdventOfCode.Puzzles.UnitTests.Days._08.SolvePartOneTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::864326CD-7F6C-406D-9E13-90D2F39FF43C::net7.0::AdventOfCode.Puzzles.UnitTests.Days._08.SolvePartTwoTests.ShouldSolveTestPuzzle&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::864326CD-7F6C-406D-9E13-90D2F39FF43C::net7.0::AdventOfCode.Puzzles.UnitTests.Days._09.SolvePartOneTests.ShouldSolveTestPuzzle&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::864326CD-7F6C-406D-9E13-90D2F39FF43C::net7.0::AdventOfCode.Puzzles.UnitTests.Days._09.SolvePartTwoTests.ShouldSolveTestPuzzle&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

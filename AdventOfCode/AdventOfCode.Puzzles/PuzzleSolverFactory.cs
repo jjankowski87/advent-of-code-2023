@@ -6,6 +6,7 @@ using AdventOfCode.Puzzles.Days._05;
 using AdventOfCode.Puzzles.Days._06;
 using AdventOfCode.Puzzles.Days._07;
 using AdventOfCode.Puzzles.Days._08;
+using AdventOfCode.Puzzles.Days._09;
 
 namespace AdventOfCode.Puzzles;
 
@@ -13,6 +14,7 @@ public static class PuzzleSolverFactory
 {
     public static IEnumerable<IPuzzleSolver> Build()
     {
+        yield return new Day09PuzzleSolver();
         yield return new Day08PuzzleSolver();
         yield return new Day07PuzzleSolver();
         yield return new Day06PuzzleSolver();
