@@ -35,6 +35,6 @@ while (true)
         _ => throw new InvalidOperationException("Unknown part"),
     };
 
-    AnsiConsole.Markup($"Your solution of Puzzle for [green]{selectedDay}[/], [green]{selectedPart}[/] is: [red]{result}[/].");
+    AnsiConsole.Markup($"Your solution of Puzzle for [green]{selectedDay}[/], [green]{selectedPart}[/] is: [red]{result}[/]");
     Console.ReadKey();
 }
